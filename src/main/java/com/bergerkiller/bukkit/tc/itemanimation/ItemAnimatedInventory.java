@@ -3,6 +3,8 @@ package com.bergerkiller.bukkit.tc.itemanimation;
 import com.bergerkiller.bukkit.common.inventory.InventoryBase;
 import com.bergerkiller.bukkit.common.utils.ItemUtil;
 import com.bergerkiller.bukkit.tc.utils.GroundItemsInventory;
+
+import org.bukkit.Location;
 import org.bukkit.inventory.Inventory;
 import org.bukkit.inventory.ItemStack;
 
@@ -77,4 +79,21 @@ public class ItemAnimatedInventory extends InventoryBase {
     public int getSize() {
         return this.source.getSize();
     }
+
+	@Override
+	public Location getLocation() {
+		// TODO
+		return null;
+	}
+
+	@Override
+	public ItemStack[] getStorageContents() {
+		// TODO
+		return null;
+	}
+
+	@Override
+	public void setStorageContents(ItemStack[] arg0) throws IllegalArgumentException {
+		// TODO
+	}
 }

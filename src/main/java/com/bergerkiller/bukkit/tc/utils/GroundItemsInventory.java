@@ -104,4 +104,15 @@ public class GroundItemsInventory extends InventoryBase {
     public String getName() {
         return "Ground Items";
     }
+
+	@Override
+	public ItemStack[] getStorageContents() {
+		return null;
+		//TODO
+	}
+
+	@Override
+	public void setStorageContents(ItemStack[] arg0) throws IllegalArgumentException {
+		//TODO
+	}
 }
